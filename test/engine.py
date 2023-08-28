@@ -1,10 +1,17 @@
 import time
-def wait(timee): 
+import apil.terminal as terminal
+
+Terminal = terminal.TextInterface()
+
+Terminal.curinput
+
+def wait(timee):
     """
         wait for timee milliseconds
     
         Args: 
         timee (int): milliseconds to wait 
-    """ 
-    timee = timee * 1000 
+    """
+
+    timee = timee * 1000
     time.sleep(timee)

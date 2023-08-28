@@ -22,3 +22,13 @@ class TextInterface():
         """
 
         return self.curinput
+
+class CmdManager(TextInterface):
+    """
+    Manages command IO
+    """
+    def __init__(self):
+        TextInterface.__init__(self)
+
+    def reqcommand(self, command, args, input):
+        pass
