@@ -1,9 +1,4 @@
 import time
-import apil.terminal as terminal
-
-Terminal = terminal.TextInterface()
-
-Terminal.curinput = input('hello')
 
 def wait(timee):
     """
